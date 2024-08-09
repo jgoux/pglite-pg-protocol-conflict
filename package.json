@@ -1,0 +1,19 @@
+{
+	"name": "db-service",
+	"type": "module",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@electric-sql/pglite": "^0.2.0-alpha.7"
+	},
+	"devDependencies": {
+		"pg-protocol": "^1.6.1",
+		"typescript": "^5.5.4"
+	}
+}
